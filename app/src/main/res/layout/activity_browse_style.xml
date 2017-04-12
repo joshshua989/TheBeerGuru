@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/browse_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joshellen.thebeerguru.BrowseStyle">
+
+    <TextView
+        android:text="@string/select_your_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_header"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/b_lager_and_light_ales"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="5dp"
+        android:onClick="bSubCategoryClicked"
+        android:text="Lagers &amp; Light Ales"
+        android:layout_below="@+id/tv_header"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Wheat Ales"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_wheat_ales"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_lager_and_light_ales"
+        android:layout_alignStart="@+id/b_lager_and_light_ales" />
+
+    <Button
+        android:text="Pale Ales &amp; IPAs"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_pale_ales_and_ipas"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_wheat_ales"
+        android:layout_alignStart="@+id/b_wheat_ales" />
+
+    <Button
+        android:text="Belgian Ales"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_belgian_ales"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_pale_ales_and_ipas"
+        android:layout_alignStart="@+id/b_pale_ales_and_ipas" />
+
+    <Button
+        android:text="Ambers &amp; Browns"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/ambers_and_browns"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_belgian_ales"
+        android:layout_alignStart="@+id/b_belgian_ales" />
+
+    <Button
+        android:text="Porters &amp; Stouts"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_porters_and_stouts"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/ambers_and_browns"
+        android:layout_alignStart="@+id/ambers_and_browns" />
+
+    <Button
+        android:text="Strong Ales &amp; Barleywines"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_strong_ales_and_barleywines"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_porters_and_stouts"
+        android:layout_alignStart="@+id/b_porters_and_stouts" />
+
+    <Button
+        android:text="Sours"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_sours"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_strong_ales_and_barleywines"
+        android:layout_alignStart="@+id/b_strong_ales_and_barleywines" />
+
+    <Button
+        android:text="Ciders &amp; Meads"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:id="@+id/b_ciders_and_meads"
+        android:onClick="bSubCategoryClicked"
+        android:layout_below="@+id/b_sours"
+        android:layout_alignStart="@+id/b_sours" />
+
+
+</RelativeLayout>

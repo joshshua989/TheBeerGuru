@@ -1,0 +1,143 @@
+<resources>
+    // HopCat - Kalamazoo, Grand Opening, October 8th, 2016! Josh Ellen (Server)
+    // --------------------------------------------------------------------------------------------
+    // ACTIVITY: MAIN
+    // --------------------------------------------------------------------------------------------
+    <string name="app_name">Craft Beer Guru</string>
+    <string name="the">THE</string>
+    <string name="beer">BEER</string>
+    <string name="guru">GURU</string>
+    <string name="browse_by">BROWSE BEERS BY…</string>
+    <string name="brewery">BREWERY</string>
+    <string name="flavor">FLAVOR</string>
+    <string name="style">STYLE</string>
+    <string name="instructions">- INSTRUCTIONS -</string>
+    <string name="join_our_mailing_list">For upcoming brewery events, tours, expos, &amp; releases:  JOIN OUR MAILING LIST</string>
+    <string name="copyright_2017_by_the_beer_guru">Copyright © 2017 by The Beer Guru</string>
+
+
+    // --------------------------------------------------------------------------------------------
+    // COMMONLY USED STRINGS
+    // --------------------------------------------------------------------------------------------
+    <string name="featured">FEATURED:</string>
+    <string name="beers_with_additives">Beers w/ additives</string>
+
+    // --------------------------------------------------------------------------------------------
+    // MEMBER FEATURES
+    // --------------------------------------------------------------------------------------------
+    <string name="only_mi_beers">Only MI beers</string>
+
+    // --------------------------------------------------------------------------------------------
+    // ACTIVITY: BROWSE BY BREWERY
+    // --------------------------------------------------------------------------------------------
+    <string name="brewery_name">Brewery Name</string>
+    <string name="or">- OR -</string>
+    <string name="state">State</string>
+
+    // --------------------------------------------------------------------------------------------
+    // ACTIVITY: BROWSE BY FLAVOR
+    // --------------------------------------------------------------------------------------------
+    <string name="select_your_taste">Choose Your Taste:</string>
+    <string name="choose_all_that_apply">SELECT ANY THAT APPLY…</string>
+    <string name="malt">MALT</string>
+    <string name="hops">HOPS</string>
+    <string name="yeast">YEAST</string>
+    <string name="bready">Bready</string>
+    <string name="caramel">Caramel</string>
+
+
+    // --------------------------------------------------------------------------------------------
+    // ACTIVITY: BROWSE BY STYLE
+    // --------------------------------------------------------------------------------------------
+    <string name="select_your_style">Choose a Category:</string>
+    <string name="lagers"><![CDATA[Lager & Light Ales]]></string>
+    <string name="wheats">Wheat Ales</string>
+    <string name="pales"><![CDATA[Pale Ales & IPAs]]></string>
+    <string name="belgians">Belgian Ales</string>
+    <string name="ambers"><![CDATA[Ambers & Browns]]></string>
+    <string name="porters"><![CDATA[Porters & Stouts]]></string>
+    <string name="strongs"><![CDATA[Strong Ales & Barleywines]]></string>
+    <string name="sours">Sours</string>
+    <string name="ciders"><![CDATA[Ciders & Meads]]></string>
+    <string name="select_a_sub_category">SELECT A SUB-CATEGORY:</string>
+
+
+    // --------------------------------------------------------------------------------------------
+    // STYLE SUB-CATEGORY: LAGERS AND LIGHT ALES
+    // --------------------------------------------------------------------------------------------
+    <string name="Lager_sub_cat_1">Pilsners</string>
+    <string name="Lager_sub_cat_2">Kölschs</string>
+    <string name="Lager_sub_cat_3">Czech Pilsners</string>
+    <string name="Lager_sub_cat_4">Blonde Ales</string>
+    <string name="Lager_sub_cat_5">German Pilsners</string>
+    <string name="Lager_sub_cat_6">Rauchbiers</string>
+    <string name="Lager_sub_cat_7">Lagers</string>
+    <string name="Lager_sub_cat_8">Schwarzbiers</string>
+    <string name="Lager_sub_cat_9">Cream Ales</string>
+    <string name="Lager_sub_cat_10"><![CDATA[Bocks & Dopplebocks]]></string>
+    <string name="Lager_sub_cat_11">Golden Ales</string>
+    <string name="Lager_sub_cat_12"><![CDATA[Dry-Hopped & Barrel-Aged]]></string>
+
+    // --------------------------------------------------------------------------------------------
+    // STYLE SUB-CATEGORY: WHEAT ALES
+    // --------------------------------------------------------------------------------------------
+    <string name="wheat_sub_cat_1">American Wheats</string>
+    <string name="wheat_sub_cat_5">Pale Wheat Ales</string>
+    <string name="wheat_sub_cat_4">White Ales</string>
+    <string name="wheat_sub_cat_3">Session Wheat Ales</string>
+    <string name="wheat_sub_cat_2">Belgian-Style Witbiers</string>
+    <string name="wheat_sub_cat_6">Weissbiers</string>
+    <string name="wheat_sub_cat_7">Hoppy Wheat Ales</string>
+    <string name="wheat_sub_cat_8"><![CDATA[Weizens & Dunkelweizens]]></string>
+    <string name="wheat_sub_cat_9">Copper Wheat Ales</string>
+    <string name="wheat_sub_cat_10">Hefeweizens</string>
+    <string name="wheat_sub_cat_11">Dark Wheat Ales</string>
+    <string name="wheat_sub_cat_12"><![CDATA[Bocks & Weizenbocks]]></string>
+
+    // --------------------------------------------------------------------------------------------
+    // STYLE SUB-CATEGORY: PALE ALES AND IPAS
+    // --------------------------------------------------------------------------------------------
+    <string name="pale_sub_cat_1">India Pale Lagers</string>
+    <string name="pale_sub_cat_2">Imperial IPAs</string>
+    <string name="pale_sub_cat_3">Pale Ales</string>
+    <string name="pale_sub_cat_4"><![CDATA[Double & Triple IPAs]]></string>
+    <string name="pale_sub_cat_5">Double Pale Ales</string>
+    <string name="pale_sub_cat_6">Red IPAs</string>
+    <string name="pale_sub_cat_7">Session IPAs</string>
+    <string name="pale_sub_cat_8">Black IPAs</string>
+    <string name="pale_sub_cat_9">IPAs</string>
+    <string name="pale_sub_cat_10">White IPAs</string>
+    <string name="pale_sub_cat_11">Rye IPAs</string>
+    <string name="pale_sub_cat_12"><![CDATA[Wet / Dry Hopped & BA]]></string>
+
+    // --------------------------------------------------------------------------------------------
+    // STYLE SUB-CATEGORY: BELGIAN ALES
+    // --------------------------------------------------------------------------------------------
+    <string name="belgian_sub_cat_1">Belgian-Style Ales</string>
+    <string name="belgian_sub_cat_2"><![CDATA[Farmhouse Ales & Saisons]]></string>
+    <string name="belgian_sub_cat_3">Dubbels</string>
+    <string name="belgian_sub_cat_4">Imperial Saisons</string>
+    <string name="belgian_sub_cat_5">Tripels</string>
+    <string name="belgian_sub_cat_6">Trappist</string>
+    <string name="belgian_sub_cat_7">Quadruples</string>
+    <string name="belgian_sub_cat_8">Biére De Garde</string>
+    <string name="belgian_sub_cat_9">Lambics</string>
+    <string name="belgian_sub_cat_10">Grisette</string>
+    <string name="belgian_sub_cat_11">Flanders Red Ales</string>
+    <string name="belgian_sub_cat_12">Barrel-Aged</string>
+
+    // --------------------------------------------------------------------------------------------
+    // STYLE SUB-CATEGORY: AMBERS AND BROWNS
+    // --------------------------------------------------------------------------------------------
+    <string name="amber_sub_cat_1">Amber Ales</string>
+    <string name="amber_sub_cat_2">Scottish Ales</string>
+    <string name="amber_sub_cat_3">Red Ales</string>
+    <string name="amber_sub_cat_4">Extra Special Bitters</string>
+    <string name="amber_sub_cat_5">Imperial Red Ales</string>
+    <string name="amber_sub_cat_6">English-Style Mild Ales</string>
+    <string name="amber_sub_cat_7">Brown Ales</string>
+    <string name="amber_sub_cat_8">American Steam Beers</string>
+    <string name="amber_sub_cat_9">Imperial Brown Ales</string>
+    <string name="amber_sub_cat_10">Barrel-Aged</string>
+    <string name="amber_sub_cat_11">German-Style Altbiers</string>
+</resources>

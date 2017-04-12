@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/brewery_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="top"
+        android:elevation="3dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="3dp"
+        card_view:cardCornerRadius="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RatingBar
+                android:id="@+id/rb_brewery_rating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:numStars="5"
+                android:layout_toStartOf="@+id/tv_brewery_name" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:text="(999) 999-9999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingRight="5dp"
+                android:layout_above="@+id/tv_brewery_name"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/iv_brewery_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingLeft="5dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/rb_brewery_rating"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tv_brewery_name"
+                android:text="Brewery Name"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_alignTop="@+id/iv_brewery_logo"
+                android:layout_toEndOf="@+id/iv_brewery_logo" />
+
+            <TextView
+                android:text="State"
+                android:id="@+id/tv_brewery_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:layout_below="@+id/tv_brewery_city"
+                android:layout_toEndOf="@+id/tv_brewery_name" />
+
+            <TextView
+                android:text="City"
+                android:id="@+id/tv_brewery_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:layout_below="@+id/rb_brewery_rating"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/tv_brewery_name" />
+
+            <TextView
+                android:text="brewery.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_brewery_website"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textSize="12sp"
+                android:textAlignment="textEnd"
+                android:layout_alignBottom="@+id/iv_brewery_logo"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

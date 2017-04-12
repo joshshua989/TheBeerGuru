@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/browse_flavor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joshellen.thebeerguru.BrowseFlavor">
+
+    <TextView
+        android:text="@string/select_your_taste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_header"
+        android:layout_marginTop="15dp"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/choose_all_that_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sub_header"
+        android:fontFamily="casual"
+        android:layout_below="@+id/tv_header"
+        android:layout_alignStart="@+id/tv_header" />
+
+    <CheckBox
+        android:text="@string/bready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_bready"
+        android:layout_below="@+id/cb_biscuity"
+        android:layout_alignStart="@+id/cb_biscuity" />
+
+    <CheckBox
+        android:text="@string/caramel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_caramel"
+        android:layout_below="@+id/cb_bready"
+        android:layout_alignStart="@+id/cb_bready" />
+
+    <CheckBox
+        android:text="Peat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_peat"
+        android:layout_below="@+id/cb_coffee"
+        android:layout_alignStart="@+id/cb_coffee" />
+
+    <CheckBox
+        android:text="Tropical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_tropical"
+        android:layout_below="@+id/cb_resiny"
+        android:layout_alignStart="@+id/cb_resiny" />
+
+    <CheckBox
+        android:text="Herbal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_herbal"
+        android:layout_below="@+id/cb_tropical"
+        android:layout_alignStart="@+id/cb_tropical" />
+
+    <CheckBox
+        android:text="Floral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_floral"
+        android:layout_below="@+id/cb_herbal"
+        android:layout_alignStart="@+id/cb_herbal" />
+
+    <CheckBox
+        android:text="Spicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Spicy"
+        android:layout_alignStart="@+id/cb_floral"
+        android:layout_below="@+id/cb_floral" />
+
+    <CheckBox
+        android:text="Dried Fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_dried_fruit"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignBaseline="@+id/cb_resiny"
+        android:layout_alignBottom="@+id/cb_resiny"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:text="Banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_banana"
+        android:layout_below="@+id/cb_dried_fruit"
+        android:layout_alignStart="@+id/cb_dried_fruit" />
+
+    <CheckBox
+        android:text="Clove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_clove"
+        android:layout_below="@+id/cb_banana"
+        android:layout_alignStart="@+id/cb_banana" />
+
+    <CheckBox
+        android:text="Peppery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_peppery"
+        android:layout_below="@+id/cb_clove"
+        android:layout_alignStart="@+id/cb_clove" />
+
+    <CheckBox
+        android:text="Biscuity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_biscuity"
+        android:layout_below="@+id/tv_malt_header"
+        android:layout_marginTop="5dp" />
+
+    <CheckBox
+        android:text="Chocolatey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_chocolatey"
+        android:layout_below="@+id/cb_caramel"
+        android:layout_alignStart="@+id/cb_caramel"
+        android:layout_above="@+id/Spicy" />
+
+    <CheckBox
+        android:text="Coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_coffee"
+        android:layout_below="@+id/cb_chocolatey"
+        android:layout_alignStart="@+id/cb_chocolatey" />
+
+    <CheckBox
+        android:text="Dank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_dank"
+        android:layout_below="@+id/Spicy"
+        android:layout_alignStart="@+id/Spicy" />
+
+    <CheckBox
+        android:text="Sour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_sour"
+        android:layout_below="@+id/cb_peppery"
+        android:layout_alignStart="@+id/cb_peppery" />
+
+    <CheckBox
+        android:text="Only show beers with additives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_additives"
+        android:layout_below="@+id/tv_featured"
+        android:layout_alignStart="@+id/tv_malt_header" />
+
+    <TextView
+        android:text="@string/featured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_featured"
+        android:layout_below="@+id/cb_dank"
+        android:layout_marginTop="8dp"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignEnd="@+id/cb_tropical" />
+
+    <CheckBox
+        android:text="Resiny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_resiny"
+        android:layout_below="@+id/tv_malt_header"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/hops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hops_header"
+        android:layout_marginTop="6dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/tv_sub_header"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/malt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_malt_header"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/tv_hops_header"
+        android:layout_toStartOf="@+id/tv_sub_header" />
+
+    <TextView
+        android:text="@string/yeast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_yeast_header"
+        android:textSize="18sp"
+        android:layout_above="@+id/cb_biscuity"
+        android:layout_toEndOf="@+id/tv_header" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/brewery_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cb_additives" />
+
+</RelativeLayout>
